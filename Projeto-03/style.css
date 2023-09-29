@@ -1,0 +1,112 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-image: linear-gradient(white, gray);
+}
+ul {
+  list-style: none;
+  padding-left: 5px;  
+}
+
+li{
+    padding-height:100px;
+}
+
+.serie:hover {
+    background:white;
+    border: none;
+    padding:10px;
+    max-width:200px;
+    min-width:200px;
+   
+    
+}
+.serie{
+    border:none;
+    margin-bottom: 15px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  align-items: flex-end;
+}
+
+a:hover{
+    color:blue;
+}
+.bar {
+  background-color: #f9f9fb;
+  padding: 15px;
+  border-top: solid 1px #cdcdcd;
+  border-bottom: solid 1px #cdcdcd;
+}
+.content {
+  max-width: 1440px;
+  margin: auto;
+  grid-gap: 3rem;
+  display: grid;
+  gap: 3rem;
+  grid-template-areas: "sidebar main anchors";
+  grid-template-columns: minmax(0, 15rem) minmax(0, 2.5fr) minmax(0, 15rem);
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+main{
+
+    text-align:justify;
+
+}
+
+
+.image{
+    max-width:820px;
+    min-width:820px;
+    max-height: 1000px;
+    min-height: 400px;
+    text-align: left;
+}
+
+.footer {
+  min-height: 100px;
+  border-top: solid 1px #cdcdcd;
+  font-size: 13px;
+  color: white;
+  text-align: center;
+}
+.anchors {
+  border-right: solid 1px #cdcdcd;
+  text-align:left;
+  
+}
+
+.sidebar {
+  border-right: solid 1px #cdcdcd;
+}
+.logo {
+  text-align: left;
+}
+table thead th {
+  background-color: black;
+  color: white;
+  
+}
+table tbody th {
+  background-color: lightgray;
+  color: black;
+  
+}
+.tabela {
+  font-size: 30px;
+  
+}
+
+.iframe {
+    max-width:860px;
+    min-width:860px;
+    max-height: 1000px;
+    min-height: 400px
+}
